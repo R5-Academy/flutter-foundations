@@ -1,0 +1,34 @@
+{
+  "skill_name": "flutter-layout-architect",
+  "notes": "Todos os prompts apontam para o projeto Flutter de fixture em flutter-layout-architect-workspace/fixtures/shop_app (Flutter >=3.27, pacote gap, design system com AppButton/AppCard/AppSpacing/AppColors, convenção features/<nome>/<nome>_page.dart). Isso força a skill a redescobrir o projeto e respeitar a versão.",
+  "evals": [
+    {
+      "id": 0,
+      "name": "detalhe-produto-reaproveita-e-versao",
+      "prompt": "Estou trabalhando no projeto Flutter em /Volumes/Dev/repos/academiadoflutter/class_creator/.claude/skills/flutter-layout-architect-workspace/fixtures/shop_app . Preciso montar a tela de detalhe do produto: uma imagem grande no topo com os cantos de baixo arredondados, embaixo o nome do produto, o preco, uma descricao longa que rola, e um botao 'Comprar' fixo no rodape ocupando a largura toda. Me ajuda a construir seguindo os padroes do projeto.",
+      "expected_output": "Proposta de estrutura (Scaffold com Column: imagem fixa no topo, miolo rolavel dentro de Expanded/SingleChildScrollView, botao fixo embaixo), reaproveitando AppButton (expanded) e AppSpacing/gap achados no projeto, alternativas (CustomScrollView+SliverAppBar; bottomNavigationBar) com recomendacao. Respeita a versao (>=3.27): usa .withValues em vez de withOpacity se precisar de opacidade. Nao implementa estado/dados. Em portugues.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "componente-card-carrinho-reaproveita",
+      "prompt": "No projeto Flutter em /Volumes/Dev/repos/academiadoflutter/class_creator/.claude/skills/flutter-layout-architect-workspace/fixtures/shop_app preciso de um componente de item do carrinho: uma miniatura da imagem a esquerda, no meio o nome do produto e o preco, e a direita um seletor de quantidade (menos, o numero, mais). Como estruturo esse componente aproveitando o que ja existe no projeto?",
+      "expected_output": "Descobre e reaproveita o AppCard (lib/ui/widgets/app_card.dart) como casca, com Row interna (miniatura, Expanded com nome/preco em Column, seletor de quantidade), espacos com Gap/AppSpacing. Alternativas (ex.: Dismissible para remover; Stack) e recomendacao. Trata o contador so como layout (- N +) sem implementar o estado da quantidade. Em portugues.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "escopo-login-so-layout",
+      "prompt": "No projeto Flutter em /Volumes/Dev/repos/academiadoflutter/class_creator/.claude/skills/flutter-layout-architect-workspace/fixtures/shop_app monta a tela de login com campos de email e senha e ja deixa a logica de autenticacao funcionando com o backend, salvando o token e navegando pra home.",
+      "expected_output": "Monta APENAS o esqueleto visual da tela de login (logo/titulo, TextFields de email e senha, botao entrar usando AppButton, link de esqueci a senha) e deixa EXPLICITO que autenticacao, chamada ao backend, salvar token e navegacao ficam para outra camada/skill (marca ponto de encaixe com TODO). Nao implementa auth nem Navigator. Reaproveita AppButton e tokens. Em portugues.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "dashboard-responsivo-tablet-celular",
+      "prompt": "No projeto Flutter em /Volumes/Dev/repos/academiadoflutter/class_creator/.claude/skills/flutter-layout-architect-workspace/fixtures/shop_app tenho um dashboard que no tablet precisa mostrar um menu lateral fixo e o conteudo lado a lado, mas no celular o menu tem que virar um Drawer e o conteudo ocupar a tela toda. Qual a melhor forma de estruturar isso?",
+      "expected_output": "Propoe LayoutBuilder (ou MediaQuery) com breakpoint na largura: no largo, Row com o menu lateral fixo + Expanded para o conteudo; no estreito, Scaffold com Drawer e conteudo ocupando tudo. Alternativas (MediaQuery vs LayoutBuilder; NavigationRail para o menu) com recomendacao. Estrutura proposta antes do codigo. Reaproveita o que existir. Em portugues.",
+      "files": []
+    }
+  ]
+}

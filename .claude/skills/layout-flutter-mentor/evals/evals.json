@@ -1,0 +1,33 @@
+{
+  "skill_name": "layout-flutter-mentor",
+  "evals": [
+    {
+      "id": 0,
+      "name": "box-arredondado-pergunta-simples",
+      "prompt": "Como faço um box com bordas arredondadas e um fundo cinza claro em Flutter?",
+      "expected_output": "Código com Container + BoxDecoration (borderRadius + color), explicação do porquê de cada widget e alternativas (Card, DecoratedBox/ClipRRect). Em português.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "linha-titulo-esquerda-icone-direita",
+      "prompt": "Tenho um título de texto que precisa ficar à esquerda e um ícone de menu (três pontinhos) na mesma linha, alinhado bem na direita. Como monto essa linha?",
+      "expected_output": "Row com Spacer ou mainAxisAlignment.spaceBetween, IconButton para o ícone, explicação de por que Spacer/spaceBetween resolve o empurrão, alternativas. Em português.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "card-produto-completo",
+      "prompt": "Preciso montar um card de produto: uma imagem no topo com cantos arredondados, embaixo o nome do produto em negrito, o preço, e um botão 'Comprar' que ocupa a largura toda do card. Me ajuda a construir?",
+      "expected_output": "Card ou Container com Column, ClipRRect na imagem, Text com fontWeight, ElevatedButton com largura total (SizedBox width double.infinity ou Expanded), explicação widget a widget e alternativas. Em português.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "layout-responsivo-tablet-celular",
+      "prompt": "Como faço uma tela que no tablet mostra dois painéis lado a lado, mas no celular mostra um embaixo do outro?",
+      "expected_output": "LayoutBuilder (ou MediaQuery) com breakpoint em constraints.maxWidth, Row com Expanded no caso largo e Column no estreito, explicação do porquê do LayoutBuilder vs alternativas. Em português.",
+      "files": []
+    }
+  ]
+}
