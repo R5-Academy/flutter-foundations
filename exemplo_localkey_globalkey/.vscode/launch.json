@@ -1,0 +1,55 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - o mapa das keys",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_mapa_das_keys.dart"
+    },
+    {
+      "name": "exemplo_02 - localkey entre irmaos",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_localkey_entre_irmaos.dart"
+    },
+    {
+      "name": "exemplo_03 - globalkey acesso state",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_globalkey_acesso_state.dart"
+    },
+    {
+      "name": "exemplo_04 - globalkey reparent",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_globalkey_reparent.dart"
+    },
+    {
+      "name": "exemplo_05 - globalkey armadilhas",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_05_globalkey_armadilhas.dart"
+    },
+    {
+      "name": "exemplo_localkey_globalkey",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_localkey_globalkey (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_localkey_globalkey (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
