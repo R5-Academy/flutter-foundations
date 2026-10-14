@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - a fabrica",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_a_fabrica.dart"
+    },
+    {
+      "name": "exemplo_02 - uma vez vs n vezes",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_uma_vez_vs_n_vezes.dart"
+    },
+    {
+      "name": "exemplo_03 - dados do widget",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_dados_do_widget.dart"
+    },
+    {
+      "name": "exemplo_04 - armadilha construtor",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_armadilha_construtor.dart"
+    },
+    {
+      "name": "exemplo_create_state",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_create_state (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_create_state (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
