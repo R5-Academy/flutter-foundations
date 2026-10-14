@@ -1,0 +1,55 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - o metodo dispose",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_metodo_dispose.dart"
+    },
+    {
+      "name": "exemplo_02 - o par espelhado",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_o_par_espelhado.dart"
+    },
+    {
+      "name": "exemplo_03 - o vazamento do timer",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_o_vazamento_do_timer.dart"
+    },
+    {
+      "name": "exemplo_04 - setstate apos dispose",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_setstate_apos_dispose.dart"
+    },
+    {
+      "name": "exemplo_05 - animationcontroller",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_05_animationcontroller.dart"
+    },
+    {
+      "name": "exemplo_dispose",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_dispose (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_dispose (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
