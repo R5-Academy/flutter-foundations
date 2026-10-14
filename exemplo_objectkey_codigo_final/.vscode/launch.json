@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - anatomia objectkey",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_anatomia_objectkey.dart"
+    },
+    {
+      "name": "exemplo_02 - valor duplicado resolvido",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_valor_duplicado_resolvido.dart"
+    },
+    {
+      "name": "exemplo_03 - instancia estavel",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_instancia_estavel.dart"
+    },
+    {
+      "name": "exemplo_04 - escolha id ou objeto",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_escolha_id_ou_objeto.dart"
+    },
+    {
+      "name": "exemplo_objectkey",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_objectkey (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_objectkey (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
