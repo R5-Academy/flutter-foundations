@@ -1,0 +1,55 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - o primeiro metodo",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_primeiro_metodo.dart"
+    },
+    {
+      "name": "exemplo_02 - valor inicial do widget",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_valor_inicial_do_widget.dart"
+    },
+    {
+      "name": "exemplo_03 - controller no initstate",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_controller_no_initstate.dart"
+    },
+    {
+      "name": "exemplo_04 - carregar dados async",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_carregar_dados_async.dart"
+    },
+    {
+      "name": "exemplo_05 - a armadilha do context",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_05_a_armadilha_do_context.dart"
+    },
+    {
+      "name": "exemplo_init_state",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_init_state (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_init_state (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
