@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "01 - O problema tamanho fixo",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_problema_tamanho_fixo.dart"
+    },
+    {
+      "name": "02 - Medindo a tela",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_medindo_a_tela.dart"
+    },
+    {
+      "name": "03 - A forma moderna sizeOf",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_a_forma_moderna_sizeof.dart"
+    },
+    {
+      "name": "04 - Reagindo a orientação",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_reagindo_a_orientacao.dart"
+    },
+    {
+      "name": "05 - Safe area e teclado",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_05_safe_area_e_teclado.dart"
+    },
+    {
+      "name": "main",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    }
+  ]
+}
