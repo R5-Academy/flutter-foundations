@@ -1,0 +1,37 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_navegando_arvore",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_02_ferramentas_de_subida",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_ferramentas_de_subida.dart"
+    },
+    {
+      "name": "exemplo_03_nosso_of",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_nosso_of.dart"
+    },
+    {
+      "name": "exemplo_navegando_arvore (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_navegando_arvore (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
