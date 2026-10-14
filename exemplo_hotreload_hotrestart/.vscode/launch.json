@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - o log do ciclo",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_log_do_ciclo.dart"
+    },
+    {
+      "name": "exemplo_02 - o estado sobrevive",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_o_estado_sobrevive.dart"
+    },
+    {
+      "name": "exemplo_03 - mudei e nao apareceu",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_mudei_e_nao_apareceu.dart"
+    },
+    {
+      "name": "exemplo_04 - reassemble",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_reassemble.dart"
+    },
+    {
+      "name": "exemplo_hotreload_hotrestart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_hotreload_hotrestart (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_hotreload_hotrestart (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
