@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "exemplo_01 - o tile colorido",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_01_o_tile_colorido.dart"
+    },
+    {
+      "name": "exemplo_02 - a lista com bug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_02_a_lista_com_bug.dart"
+    },
+    {
+      "name": "exemplo_03 - o conserto com key",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_03_o_conserto_com_key.dart"
+    },
+    {
+      "name": "exemplo_04 - armadilha key enterrada",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/exemplo_04_armadilha_key_enterrada.dart"
+    },
+    {
+      "name": "exemplo_key_reconciliacao",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "exemplo_key_reconciliacao (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "exemplo_key_reconciliacao (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
